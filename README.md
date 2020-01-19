@@ -1,6 +1,6 @@
 # :leaves: java-web-programing
 
-각자 branch를 만들어서 요구사항 개발 완료 후 pull request 하기
+> 각자 branch를 만들어서 요구사항 개발 완료 후 pull request 하기
 
 <br>
 
