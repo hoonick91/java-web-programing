@@ -21,7 +21,7 @@ https://github.com/woowacourse/jwp-was/tree/SEOKHYOENCHOI
   1. HandlerMapping의 getHandler(String path) 메소드로 적절한 HandlerMapping을 찾는다.
      - getHandler는 각 HttpServletRequestHandler, HttpResourceRequestHandler내부의 canHandle을 호출하여 찾는다.
 
-  <img src="./images/HttpResourceRequestHandler.png" alt="image" style="zoom:67%;" />
+  <img src="../images/HttpResourceRequestHandler.png" alt="image" style="zoom:67%;" />
 
   2. handler 메소드를 실행한다.
      - AbstractHttpRequestHandler에 구현되어 있다.
