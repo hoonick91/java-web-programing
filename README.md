@@ -2,40 +2,9 @@
 
 <br>
 
-> 1.19일까지 조사하고, master branch의 자기 이니셜 폴더에 공유
 
-## 01.13 ~ 19
-
-- 전체적인 Spring MVC의 동작 흐름
-
-- HTTP 웹서버
-
-  :page_facing_up: https://github.com/woowacourse/jwp-was
-
-  :page_facing_up: ​https://edu.nextstep.camp/c/4YUvqn9V/
-
-  - 동작원리
-  - 실제로 구현할만 한지
-  - 예제
 
 <br>
-
-
-
-## 01.19 ~ 02.02
-
-- 요청을 받는 Web Server 구현
-
-- 요청을 처리하는 RequestHandler 구현
-
-  - 요청에 대한 응답은 정적 파일을 내려주거나(HttpResourceRequestHandler)
-  - Controller에 대한 응답을 보내준다.(HttpServletRequestHandler)
-
-  
-
-  :page_facing_up: ㅇㅇㅇ​
-
-  
 
 
 
