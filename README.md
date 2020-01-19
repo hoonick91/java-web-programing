@@ -22,6 +22,23 @@
 
 
 
+## 01.19 ~ 02.02
+
+- 요청을 받는 Web Server 구현
+
+- 요청을 처리하는 RequestHandler 구현
+
+  - 요청에 대한 응답은 정적 파일을 내려주거나(HttpResourceRequestHandler)
+  - Controller에 대한 응답을 보내준다.(HttpServletRequestHandler)
+
+  
+
+  :page_facing_up: ㅇㅇㅇ​
+
+  
+
+
+
 ### 배경
 
 :pushpin: java web framework를 직접 개발해봄으로써​ Spring을 알자
