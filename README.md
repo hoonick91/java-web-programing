@@ -1,8 +1,10 @@
 # :leaves: java-web-programing
 
+> 각자 branch를 만들어서 요구사항 개발 완료 후 pull request 하기
+
 <br>
 
-1. https://github.com/hoonick91/java-web-programing/blob/master/2020.01.13~01.19.m
+1. https://github.com/hoonick91/java-web-programing/blob/master/2020.01.13~01.19.md
 2. https://github.com/hoonick91/java-web-programing/blob/master/2020.01.19~02.02.md
 
 <br>
