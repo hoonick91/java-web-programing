@@ -1,0 +1,81 @@
+<html>
+
+<head>
+	<title>WebSocket client example</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://fargo.io/code/jquery-1.9.1.min.js"></script>
+	<link href="http://fargo.io/code/ubuntuFont.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+	<script>
+		// var urlMySocket = "ws://192.168.0.22:8081/socket";
+		// var urlMySocket = "ws://";
+		// var urlMySocket = "http://localhost:8081/socket";
+		var urlMySocket = "http://121.156.46.168:31001/socket";
+		var ctSeconds = 0;
+
+		var sock = new SockJS(urlMySocket);
+
+
+		function startup() {
+			console.log("startup");
+			this.sock.onopen = function () {
+				// sock.send('test');
+			}
+
+			this.sock.onmessage = function (e) {
+				console.log(e.data);
+				
+			};
+
+			// setTimeout(sock.onclose = function () {
+			// 	sock.close();
+			// }, 5000);
+		}
+
+	</script>
+	<style>
+		body {
+			font-family: Ubuntu;
+			font-size: 18px;
+			background-color: whitesmoke;
+		}
+
+		.divPageBody {
+			width: 60%;
+			margin-top: 90px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="divPageBody">
+		<h1>WebSocket client</h1>
+		<p>This app sends one message every second to a server, and displays the result below. The server uppercases the text and
+			adds three exclams at the end.</p>
+		<p id="idWebSocketResult">
+		</p>
+		<p id="idWebSocketTime"></p>
+		<input id="socket-close" type="button" value="소켓 연결 끊기"></div>
+
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			startup();
+			let closeBtn = document.getElementById("socket-close");
+			var that = this;
+			closeBtn.addEventListener("click", ()=>{
+				sock.close();
+			})
+
+		});
+
+
+	</script>
+</body>
+
+
+</html>
