@@ -1,3 +1,6 @@
 .DS_Store
 .gradle
 gradle
+.idea
+gradlew
+gradlew.bat
