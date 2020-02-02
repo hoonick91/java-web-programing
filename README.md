@@ -6,7 +6,7 @@
 
 1. https://github.com/hoonick91/java-web-programing/blob/master/2020.01.13~01.19.md
 2. https://github.com/hoonick91/java-web-programing/blob/master/2020.01.19~02.02.md
-3. https://github.com/hoonick91/java-web-programing/blob/master/2020.02.02~02.09.md
+3. [Session 관리 기능](https://github.com/hoonick91/java-web-programing/blob/master/2020.02.02~02.09.md)
 
 <br>
 
